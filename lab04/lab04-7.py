@@ -3,7 +3,7 @@ counter = 0
 while True:
     try:
         input_str = input("Ingrese un número: ")
-        if(input_str == 'done'):
+        if(input_str == "done"):
             break
     else:
         total = total + int(input_str)
